@@ -24,9 +24,13 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
- 1.Increment count on each positive edge of the clock. 2.Reset count to zero when it reaches 15. 3.Generate clock signal (clk). 4.Instantiate the RippleCounter module. 5.Conduct functional testing by displaying the count at each clock cycle for 16 cycles.
+ 1.Increment count on each positive edge of the clock. 
+ 2.Reset count to zero when it reaches 15.
+ 3.Generate clock signal (clk). 
+ 4.Instantiate the RippleCounter module.
+ 5.Conduct functional testing by displaying the count at each clock cycle for 16 cycles.
 **PROGRAM**
-
+```
 /* module RippleCounter(
    input wire clk,  // Clock input
    output reg [3:0] count // 4-bit counter output
@@ -87,7 +91,7 @@ endmodule
 
  Developed by:sha Harieenesh
  RegisterNumber:24002342
-*/
+```
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
 ![331223779-9cbf71a5-4809-4437-a99f-24d928634e94](https://github.com/user-attachments/assets/c1a65464-4666-4d2b-81b9-bd223ce871ec)
